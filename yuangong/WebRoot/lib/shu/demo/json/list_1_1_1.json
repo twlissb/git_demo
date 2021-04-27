@@ -1,0 +1,124 @@
+{
+	"code": 0,
+	"msg": "",
+	"count": 0,
+	"data": [
+		{
+			"authorityId": 1,
+			"authorityName": "系统权限菜单",
+			"open": true,
+			"parentId": 0
+		},
+		{
+			"authority": "UserServlet?action=allUser",
+			"authorityId": 2,
+			"authorityName": "用户管理",
+			"open": true,
+			"parentId": 1
+		},
+		{
+			"authority": "MenuServlet?action=allMenu",
+			"authorityId": 3,
+			"authorityName": "权限管理",
+			"open": true,
+			"parentId": 1
+		},
+		{
+			"authority": "RoleServlet?action=allRole",
+			"authorityId": 4,
+			"authorityName": "角色管理",
+			"open": true,
+			"parentId": 1
+		},
+		{
+			"authority": "delUser",
+			"authorityId": 5,
+			"authorityName": "删除用户",
+			"open": true,
+			"parentId": 2
+		},
+		{
+			"authority": "upUser",
+			"authorityId": 6,
+			"authorityName": "修改用户",
+			"open": true,
+			"parentId": 2
+		},
+		{
+			"authority": "addUser",
+			"authorityId": 7,
+			"authorityName": "增加用户",
+			"open": true,
+			"parentId": 2
+		},
+		{
+			"authority": "delMenu",
+			"authorityId": 8,
+			"authorityName": "删除权限",
+			"open": true,
+			"parentId": 3
+		},
+		{
+			"authority": "upMenu",
+			"authorityId": 9,
+			"authorityName": "修改权限",
+			"open": true,
+			"parentId": 3
+		},
+		{
+			"authority": "addMenu",
+			"authorityId": 10,
+			"authorityName": "增加权限",
+			"open": true,
+			"parentId": 3
+		},
+		{
+			"authority": "delRole",
+			"authorityId": 11,
+			"authorityName": "删除角色",
+			"open": true,
+			"parentId": 4
+		},
+		{
+			"authority": "upRole",
+			"authorityId": 12,
+			"authorityName": "修改角色",
+			"open": true,
+			"parentId": 4
+		},
+		{
+			"authority": "addMenu",
+			"authorityId": 13,
+			"authorityName": "增加角色",
+			"open": true,
+			"parentId": 4
+		},
+		{
+			"authority": "hairMenu",
+			"authorityId": 14,
+			"authorityName": "分配权限",
+			"open": true,
+			"parentId": 2
+		},
+		{
+			"authorityId": 15,
+			"authorityName": "系统基本参数",
+			"open": true,
+			"parentId": 0
+		},
+		{
+			"authority": "",
+			"authorityId": 16,
+			"authorityName": "123",
+			"open": true,
+			"parentId": 15
+		},
+		{
+			"authority": "page/shu/demo/index.jsp",
+			"authorityId": 17,
+			"authorityName": "1234",
+			"open": true,
+			"parentId": 1
+		}
+	]
+}
